@@ -13,8 +13,8 @@ RUN wget https://github.com/RickDB/PlexAniSync/archive/master.zip &&\
             pip install -r requirements.txt &&\
             cd ..
 
-COPY runsync.sh .
+COPY ./runsync.sh /
 
-RUN ["chmod", "+x", "runsync.sh"]
+RUN chmod +x /runsync.sh
 
-CMD ["runsync.sh"]
+CMD ["/runsync.sh"]
