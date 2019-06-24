@@ -1,5 +1,5 @@
 #!/bin/bash
 echo "Updating settings.ini"
-py settingsupdater.py
+python settingsupdater.py
 echo "Executing sync"
-py /plexanisync/PlexAniSync.py
+python /plexanisync/PlexAniSync.py
