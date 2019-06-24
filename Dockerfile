@@ -20,4 +20,4 @@ COPY runsync.sh .
 
 RUN ["chmod", "+x", "runsync.sh"]
 
-CMD ["python", "runsync.sh"]
+CMD ["runsync.sh"]
