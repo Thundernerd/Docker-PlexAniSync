@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "Updating settings.ini"
 py settingsupdater.py
 echo "Executing sync"
