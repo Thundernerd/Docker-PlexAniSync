@@ -13,8 +13,7 @@ RUN wget https://github.com/RickDB/PlexAniSync/archive/master.zip &&\
             pip install -r requirements.txt &&\
             cd ..
 
-COPY ./runsync.sh / &&\
-    ./settingsupdater.py /
+COPY runsync.sh settingsupdater.py ./
 
 RUN chmod +x /runsync.sh
 
