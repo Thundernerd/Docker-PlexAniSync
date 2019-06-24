@@ -17,4 +17,4 @@ COPY ./runsync.sh /
 
 RUN chmod +x /runsync.sh
 
-CMD ["/runsync.sh"]
+# CMD ["/runsync.sh"]
