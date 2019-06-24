@@ -20,4 +20,4 @@ COPY runsync.sh .
 
 RUN ["chmod", "+x", "runsync.sh"]
 
-ENTRYPOINT ["runsync.sh"]
+ENTRYPOINT ["py", "runsync.sh"]
