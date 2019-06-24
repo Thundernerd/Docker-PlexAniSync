@@ -12,9 +12,6 @@ RUN wget https://github.com/RickDB/PlexAniSync/archive/master.zip &&\
             cd /plexanisync &&\
             pip install -r requirements.txt &&\
             cd .. &&\
-            mkdir /scripts
-
-WORKDIR /scripts
 
 COPY runsync.sh .
 
