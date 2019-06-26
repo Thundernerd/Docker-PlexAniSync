@@ -12,7 +12,7 @@ RUN wget https://github.com/RickDB/PlexAniSync/archive/master.zip &&\
             rm master.zip &&\
             mv /PlexAniSync-master /plexanisync &&\
             cd /plexanisync &&\
-            pip install -r requirements.txt &&\
+            python3 -m pip install -r requirements.txt &&\
             cd ..
 
 COPY runsync.sh settingsupdater.py ./
