@@ -7,6 +7,9 @@ ENV PATH="${PATH}:~/.local/bin"
 RUN apt-get update \
     && apt-get install -y wget unzip cron python3 python3-pip
 
+RUN python3 -m pip install --upgrade setuptools &&\
+    python3 -m pip install --upgrade pip
+
 RUN wget https://github.com/RickDB/PlexAniSync/archive/master.zip &&\
             unzip master.zip &&\
             rm master.zip &&\
