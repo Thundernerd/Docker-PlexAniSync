@@ -7,5 +7,5 @@ do
   now=$(date +"%T")
   echo "Executing sync at time : $now"
   (cd /plexanisync && python PlexAniSync.py)
-  sleep ${DEPLOY_ENV:-default}
+  sleep ${INTERVAL}
 done
