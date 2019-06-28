@@ -1,6 +1,6 @@
 FROM python:latest
 
-ENV PLEX_SECTION=Anime PLEX_URL=localhost PLEX_TOKEN=abcdefgh ANI_USERNAME=JohnDoe ANI_TOKEN=abcdefgh
+ENV PLEX_SECTION=Anime PLEX_URL=localhost PLEX_TOKEN=abcdefgh ANI_USERNAME=JohnDoe ANI_TOKEN=abcdefgh INTERVAL=3600
 
 ENV PATH="${PATH}:~/.local/bin"
 
