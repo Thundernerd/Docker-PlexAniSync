@@ -3,7 +3,7 @@
 A dockerized version of [PlexAniSync](https://github.com/RickDB/PlexAniSync) 
 
 
-# Environment
+# Environment Variables
 | ID 	| Default 	| Note 	|
 |--------------	|-----------	|---------------------------------------------------------------------------------------------------------------	|
 | PLEX_SECTION 	| Anime 	| The library where your anime resides 	|
