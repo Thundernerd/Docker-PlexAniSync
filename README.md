@@ -1,7 +1,7 @@
 # Docker-PlexAniSync
 
 <div align="center">
-  [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chrus/plexanisync.svg)]()
+  ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chrus/plexanisync.svg)
 </div>
 
 A dockerized version of [PlexAniSync](https://github.com/RickDB/PlexAniSync) 
