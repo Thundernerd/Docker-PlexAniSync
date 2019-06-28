@@ -4,10 +4,8 @@ python settingsupdater.py
 
 while true
 do
+  now=$(date +"%T")
   echo "Executing sync at time : $now"
   (cd /plexanisync && python PlexAniSync.py)
-  sleep 10
+  sleep ${DEPLOY_ENV:-default}
 done
-
-echo "Executing sync"
-(cd /plexanisync && python PlexAniSync.py)
