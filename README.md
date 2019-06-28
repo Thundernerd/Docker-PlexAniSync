@@ -1,4 +1,4 @@
-# Docker-PlexAniSync ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chrus/plexanisync.svg)
+# Docker-PlexAniSync [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chrus/plexanisync.svg)](https://hub.docker.com/r/chrus/plexanisync)
 
 A dockerized version of [PlexAniSync](https://github.com/RickDB/PlexAniSync) 
 
