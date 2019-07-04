@@ -1,7 +1,12 @@
-# Docker-PlexAniSync [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/chrus/plexanisync.svg)](https://hub.docker.com/r/chrus/plexanisync)
+# Docker-PlexAniSync
 
 A dockerized version of [PlexAniSync](https://github.com/RickDB/PlexAniSync) 
 
+<div>
+  
+  [![Build Status](https://img.shields.io/docker/cloud/build/chrus/plexanisync.svg)](https://hub.docker.com/r/chrus/plexanisync)
+  
+</div>
 
 # Environment Variables
 | ID 	| Default 	|  Required 	| Note 	|
