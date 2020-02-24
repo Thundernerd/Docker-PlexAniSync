@@ -1,3 +1,7 @@
+_Deprecated. Please visit the **official** one on [docker.hub](https://hub.docker.com/r/rickdb/plexanisync)_
+
+---
+
 # Docker-PlexAniSync
 
 A dockerized version of [PlexAniSync](https://github.com/RickDB/PlexAniSync) 
